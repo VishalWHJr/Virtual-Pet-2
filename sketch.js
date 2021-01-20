@@ -34,7 +34,7 @@ function setup() {
   namebox = createInput('Name')//.attribute('placeholder','Your pet name');
   namebox.position(450,100)
 
-  milkbottle = createSprite(440,320)
+  milkbottle = createSprite(460,320)
   milkbottle.addImage(milkimg)
   milkbottle.visible = 0;
   milkbottle.scale = 0.1
